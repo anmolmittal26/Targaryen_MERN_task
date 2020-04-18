@@ -1,0 +1,49 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+//var buttonStyle ={
+  //margin : '10px 10px 10x 0'
+//};
+//import Stylesheet from '.components/styelsheet'
+function App() {
+  return (
+    <router>
+    <div  className ="container">
+      <h1> List Your friend </h1>
+      <button className =" btn btn-default" >  Add new friend </button>
+      <form>
+        <p1> Enter Your name :</p1>
+        <input type ="text"/>
+      </form>
+      <p>   for the  data's length  > </p>
+      
+      <thead class="thead-dark"> <tr> <th scope="  col "> S.no  </th> <th scope=" col ">  ID  </th> <th scope="col"> Name </th> <th scope="col"> Age </th> <th scope="col"> Gender </th> </tr> </thead>
+      <form> 
+        <p>S.No</p>
+       <input type ="integer"/>
+      </form>
+      <form>
+        <p> id No</p>
+        <input tpye ="integer" />
+      </form>
+      <form>
+        <p> Name </p>
+        <input tpye ="text" />
+      </form>
+      <form>
+        <p> Age </p>
+        <input tpye ="integer" />
+      </form>
+      
+      <form>
+        <p> Gender </p>
+        <input type ="text" />
+        </form>
+
+       </div>
+      </router>
+    
+  );
+}
+
+export default App;
